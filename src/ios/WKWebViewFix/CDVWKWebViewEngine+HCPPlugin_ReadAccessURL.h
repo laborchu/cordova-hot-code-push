@@ -4,7 +4,6 @@
 //  Created by Nikolay Demyankov on 04.04.16.
 //
 
-#if WK_WEBVIEW_ENGINE_IS_USED
 
 #import "CDVWKWebViewEngine.h"
 
@@ -13,5 +12,3 @@
 - (id)loadRequest:(NSURLRequest*)request;
 
 @end
-
-#endif
